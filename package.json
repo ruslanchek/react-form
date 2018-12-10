@@ -1,5 +1,5 @@
 {
-	"name": "react-form",
+	"name": "rs-react-form",
 	"version": "1.0.0",
 	"main": "lib/index.js",
 	"repository": "https://github.com/ruslanchek/react-form.git",

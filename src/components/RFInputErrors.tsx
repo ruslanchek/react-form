@@ -5,7 +5,7 @@ interface IProps {
 	inputName: string;
 }
 
-export class RFInputErrors extends React.PureComponent<IProps, {}> {
+export class RFInputErrors extends React.PureComponent<IProps> {
 	public render() {
 		const { inputName } = this.props;
 

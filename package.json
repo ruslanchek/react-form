@@ -1,0 +1,22 @@
+{
+	"name": "react-form",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"repository": "https://github.com/ruslanchek/react-form.git",
+	"author": "Ruslan Shashkov <ruslanchek@icloud.com>",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "tsc -p ./tsconfig.json",
+		"prepare": "yarn build"
+	},
+	"dependencies": {
+		"react": "^16.6.3"
+	},
+	"devDependencies": {
+		"@types/react": "^16.7.13",
+		"typescript": "^3.2.2"
+	}
+}
